@@ -98,9 +98,9 @@ const pageSizeChange = () => {
               {{ item.country }}
             </div>
           </template>
-          <p>金牌：{{ item.gold }}</p>
-          <p>银牌：{{ item.silver }}</p>
-          <p>铜牌：{{ item.bronze }}</p>
+          <p>Gold: {{ item.gold }}</p>
+          <p>Silver:{{ item.silver }}</p>
+          <p>Bronze:{{ item.bronze }}</p>
         </a-card>
         <!--        </div>-->
       </a-flex>

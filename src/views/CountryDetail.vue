@@ -46,7 +46,7 @@ fetchData(pageSize.value, currentPage.value)
 
 <template>
   <div class="container">
-    <a-button @click="$router.go(-1)">回到首页</a-button>
+    <a-button @click="$router.go(-1)">Back to Home</a-button>
     <country-desc
       :title="detail.country"
       :desc="detail.desc"

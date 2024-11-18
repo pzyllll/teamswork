@@ -18,10 +18,10 @@ const props = defineProps<CountryProps>();
   <div class="bar">
     <div class="title">{{ props.title }}</div>
     <div class="num">
-      <span>描述: {{ props.desc }}</span>
-      <span>金牌: {{ props.goldMedals }}</span>
-      <span>银牌: {{ props.silverMedals }}</span>
-      <span>铜牌: {{ props.bronzeMedals }}</span>
+      <span>Description: {{ props.desc }}</span>
+      <span>Gold medal: {{ props.goldMedals }}</span>
+      <span>Silver medal: {{ props.silverMedals }}</span>
+      <span>Bronze medal: {{ props.bronzeMedals }}</span>
     </div>
   </div>
 </template>

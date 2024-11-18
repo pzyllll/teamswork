@@ -29,7 +29,7 @@ const pushComment = () => {
         <a-list-item>{{ item }}</a-list-item>
       </template>
       <template #header>
-        <div>评论列表</div>
+        <div>Comment list</div>
       </template>
     </a-list>
     <a-space style="display: flex; justify-content: flex-end; margin-top: 30px">
